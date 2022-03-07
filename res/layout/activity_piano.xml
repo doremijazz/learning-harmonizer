@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_main"
+    android:paddingStart="5dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp"
+    android:visibility="visible">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000000">
+
+    </View>
+
+
+    <ImageButton
+        android:id="@+id/rec"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_media_play"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="140dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/checkbox_off_background"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="72dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/save"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_menu_save"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp">
+
+    </ImageButton>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbHorizontal="@color/black"
+        tools:ignore="UselessParent"
+        android:layout_above="@+id/navigation"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="-20dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/partition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/image1_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize= "15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription,NestedWeights"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image1_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/image2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image2_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/image3_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/image3_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/editbox_dropdown_dark_frame"
+                android:contentDescription="@string/todo"
+                android:text="@string/na"
+                android:gravity= "center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription"
+                tools:targetApi="lollipop"
+                android:visibility="invisible">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp">
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/abc_vector_test"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/todo"
+            android:rotationY="180"
+            tools:ignore="ContentDescription"
+            tools:targetApi="lollipop">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/abc_vector_test"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription"
+            tools:targetApi="lollipop">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/piano"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbHorizontal="@color/black"
+        tools:ignore="UselessParent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/p1"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo" />
+
+
+            <ImageButton
+                android:id="@+id/p2"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p1"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p3"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p2"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p4"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p3"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p5"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p4"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p6"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p5"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p7"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p6"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p8"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p7"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p9"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p8"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p10"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p9"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p11"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p10"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p12"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p11"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p13"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p12"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p14"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p13"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p15"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p14"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p16"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p15"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/p17"
+                android:layout_width="65dp"
+                android:layout_height="155dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/p16"
+                android:background="@drawable/white_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b1"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p1"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b3"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p2"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b4"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p4"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b5"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p5"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b6"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p7"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b7"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p8"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b8"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p9"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b9"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p11"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b10"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p12"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b11"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p14"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/b12"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@id/p1"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/p15"
+                android:background="@drawable/black_key"
+                android:contentDescription="@string/todo">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p1"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/f3"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p2"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/g3"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p3"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/a3"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p4"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/b3"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:ignore="TooManyViews"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p5"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/c4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p6"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/d4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p7"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/e4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p8"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/f4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p9"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/g4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p10"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/a4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p11"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/b4"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p12"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/c5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p13"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/d5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p14"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/e5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p15"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/f5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p16"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/g5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignStart="@id/p17"
+                android:layout_alignBottom="@id/p1"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="10dp"
+                android:text="@string/a5"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp"
+                android:typeface="serif"
+                tools:targetApi="lollipop">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        </HorizontalScrollView>
+
+</RelativeLayout>

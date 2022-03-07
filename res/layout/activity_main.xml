@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|start"
+    android:background="@drawable/fond_main"
+    android:scrollbarSize="10dp"
+    tools:context="com.example.learningharmonizer.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="55dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="90dp"
+            android:text="@string/learning_harmonizer"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/partition_3"
+                tools:ignore="ContentDescription"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="201dp" android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/launch_app"
+            android:layout_width="125dp"
+            android:layout_height="92dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:contentDescription="@string/todo"
+            android:rotationY="180"
+            app:srcCompat="@drawable/abc_vector_test"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

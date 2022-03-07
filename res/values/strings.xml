@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Learning harmonizer</string>
+    <string name="todo"/>
+    <string name="harmonie_app"/>
+    <string name="recorded_musical_score"/>
+    <string name="information">information</string>
+    <string name="sauvegarde">sauvegarde</string>
+    <string name="nouvelle_harmonisation">nouvelle_harmonisation</string>
+    <string name="na">na</string>
+    <string name="f3">F3</string>
+    <string name="g3">G3</string>
+    <string name="a3">A3</string>
+    <string name="b3">B3</string>
+    <string name="c4">C4</string>
+    <string name="d4">D4</string>
+    <string name="e4">E4</string>
+    <string name="f4">F4</string>
+    <string name="g4">G4</string>
+    <string name="a4">A4</string>
+    <string name="b4">B4</string>
+    <string name="c5">C5</string>
+    <string name="e5">E5</string>
+    <string name="d5">D5</string>
+    <string name="f5">F5</string>
+    <string name="g5">G5</string>
+    <string name="a5">A5</string>
+    <string name="learning_harmonizer">Learning Harmonizer</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ombre_black_key"/>
+
+    <item android:bottom="5dp" android:left="2dp" >
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:startColor="#282828"
+                android:endColor="#000000"
+                android:gradientRadius="100%"
+                />
+        </shape>
+    </item>
+
+</layer-list>
